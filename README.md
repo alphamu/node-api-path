@@ -16,7 +16,7 @@ the library will look for the host path in the `SVC_URL` environment variable (`
 
  ```js
 //ES6 module syntax
-  import ApiPathFetch from 'node-api-path/ApiPathFetch';
+  import ApiPathFetch from 'node-api-path/lib/ApiPathFetch';
 
   let path = new ApiPathFetch({
           test_relative_path: 'verify-email/{0}/{1}',
@@ -79,7 +79,7 @@ maintain your paths.
 
 ```js
 \\ES6 module syntax
-  import ApiPath from 'node-api-path/ApiPath';
+  import ApiPath from 'node-api-path/lib/ApiPath';
 
   let path = new ApiPath({
           test_relative_path: 'verify-email/{0}/{1}',
