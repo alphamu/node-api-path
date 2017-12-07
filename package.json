@@ -1,0 +1,39 @@
+{
+  "name": "node-api-path",
+  "version": "0.0.1",
+  "description": "Create url's for your api endpoints while keeping it configurable by environment.",
+  "scripts": {
+    "babel-version": "babel --version",
+    "test": "jasmine",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphamu/node-api-path.git"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "nodejs",
+    "api",
+    "path"
+  ],
+  "main": "./lib/ApiPath.js",
+  "author": "Ali Muzaffar (http://alimuzaffar.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphamu/node-api-path/issues"
+  },
+  "homepage": "https://github.com/alphamu/node-api-path#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jasmine": "^2.7.0"
+  },
+  "dependencies": {
+    "es6-promise": "^4.1.1",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
