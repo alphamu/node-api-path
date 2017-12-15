@@ -3,7 +3,7 @@ import ApiPath from './ApiPath'
 require('es6-promise').polyfill();
 require('isomorphic-fetch');
 
-const defaultOptions = {method: "GET", body: null, headers: {Accept: "application/json", 'Content-Type': 'application/json'}}
+const defaultOptions = {method: "GET", headers: {Accept: "application/json", 'Content-Type': 'application/json'}}
 
 export default class ApiPathFetch extends ApiPath {
   constructor (paths, serviceUrl) {

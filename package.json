@@ -1,6 +1,6 @@
 {
   "name": "node-api-path",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create url's for your api endpoints while keeping it configurable by environment.",
   "scripts": {
     "babel-version": "babel --version",
